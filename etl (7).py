@@ -132,7 +132,7 @@ def process_log_data(spark, input_data, output_data):
     # extract columns from joined song and log datasets to create songplays table 
     songplays_table = spark.sql("""
 SELECT
-    l.songplay_id
+    l.songplay_id,
     l.timestamp,
     year(l.timestamp)as year,
     month(l.month) as month,
