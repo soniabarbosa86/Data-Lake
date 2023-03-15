@@ -56,12 +56,14 @@ artist_id, name, location, lattitude, longitude
 
 start_time, hour, day, week, month, year, weekday
 
-Schema of tables:  
+Schema of tables: 
+
+<img width="802" alt="ER DIAGRAM" src="https://user-images.githubusercontent.com/99013713/225326846-c8467b0c-7609-4d94-8c59-621ab7fb81be.png">
 
 
 
 
-* [Process](#Process)
+* [Process](#Process)  
 In order to complete the project, I was tasked with extracting Sparkify data from S3, process the data using Spark and load the data back into S3 as a set of dimensional tables.
 After initiating the SparkSession, the processing of the dimensional tables was done by creating a function with the following capabilities:  
 - accessing the files 
