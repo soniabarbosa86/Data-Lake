@@ -63,7 +63,7 @@ Schema of tables:
 
 
 
-* [Process](#Process)  
+##Process
 In order to complete the project, I was tasked with extracting Sparkify data from S3, process the data using Spark and load the data back into S3 as a set of dimensional tables.
 After initiating the SparkSession, the processing of the dimensional tables was done by creating a function with the following capabilities:  
 - accessing the files 
